@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="demo"></div>
+	<div id="demo2"></div>
+
+	<script>
+		
+		var x = myFunction(4, 3); //cái này khác với cái var x = function myFunction(){}
+
+document.getElementById("demo").innerHTML = x;
+
+function myFunction(a, b) {
+  return a * b;
+}
+
+var x = function myFunction(a, b) {  //khác với cái trên nhá !!!
+  return a * b;
+}
+document.getElementById("demo2").innerHTML = x(9, 8);
+
+function myFunction(a, b) {
+  return a * b;
+}
+
+
+			</script>
+
+</body>
+</html>

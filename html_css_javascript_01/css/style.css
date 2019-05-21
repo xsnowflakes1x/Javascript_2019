@@ -1,0 +1,48 @@
+@font-face{
+		
+	font-family: Pacifico;
+	src:url(fonts/Pacifico-Regular.ttf);
+}
+
+*{
+	font-family: Pacifico, cursive;
+	margin: auto;
+	font-size: 20px;
+}
+
+pre > p::first-letter{font-size: 30px;}
+
+
+h1{
+	color: red;
+	font-size: 2em;
+}
+
+.button{
+	position: relative;
+	left:45%; 
+	top:10px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.content{
+	width: 73%;
+	border: 5px inset #656565;
+	height: 390px;
+	overflow: hidden;
+	transition: height 2s;
+	
+}
+
+.open{
+	width: 73%;
+	border: 5px inset #656565;
+	height: 745px;
+	transition: height 2s;
+	overflow: hidden;
+
+}
+
+
+

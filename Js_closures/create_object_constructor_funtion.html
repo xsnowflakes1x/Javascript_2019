@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="demo"></div>
+	<div id="demo2"></div>
+	<div id="demo3"></div>
+
+	<script>
+		
+var x =	function Person() {
+		this.lastName = 'Truong';
+		this.firstName ='Truc';
+		this.fullName = function fullName() {
+			return this.lastName +" "+this.firstName;
+			}
+		};
+
+		var p1 = new Person();
+		p1.lastName = 'Ngoc';
+
+		var p2 = new Person();
+		p2.firstName='Trung';
+
+		var y = x;
+		
+	
+		document.getElementById("demo3").innerHTML = y ('cho');
+
+		document.getElementById("demo").innerHTML = 
+		p1.lastName +" "+p1.firstName;
+		document.getElementById("demo2").innerHTML = p2.fullName();
+			</script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+/*css*/
+*{color: white;}
+h1 {color:red;}
+.myClass  p::selection {
+	background: black;
+	color: yellow;
+}
+#myBox {
+	margin: auto;
+	width: 100px;
+}
+
+
+
+/* Firework basic styles for black background and crosshair cursor */
+body {
+	background: #000;
+	margin: 0;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}

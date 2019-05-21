@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+		
+		<h3>dấu ~ / + là đồng cấp(sibling)  còn lại khoảng trắng(_), > </h3>
+		(windows) hold down middle mouse button and drag﻿ --> kéo muti
+
+			Tập :chuyển lại type ="text" và Event onkeyup
+		
+		<h1> Nhập điểm: Kiểm tra năng lực</h1>
+		<div id=myBox>
+			<div class="myClass"><p>Nhập tên:</p>
+				<input id="fname" type="text" placeholder="Nhập tên" onfocus="myFocus(this)" onblur="myBlur(this)" value=""></div>
+
+			<div class="myClass"><p>Nhập mã số:</p>
+				<input id="maId" type="text" placeholder="Nhập mã" onfocus="myFocus(this)" onblur="myBlur(this)" value="" ></div>
+
+			<div class="myClass"><p>Điểm toán:</p>
+				<input id="dtoanId" placeholder="Nhập điểm toán" onfocus="myFocus(this)" onblur="myBlur(this)" value="" onmouseup="Tong()" type="number"  min="1" max="10"></div>
+		
+			<div class="myClass"><p>Điểm văn:</p>
+				<input id="dvanId" type="number" placeholder="Nhập điểm văn" onfocus="myFocus(this)" onblur="myBlur(this)" value="" onmouseup="Tong()" min="0" max="10"></div>
+				<hr width="160px">
+
+			<div class="myClass"><input id="tongId" type="text" placeholder="Điểm trung bình (không nhập)" onfocus="myFocus(this)" value="" readonly></div>
+		</div>
+<!-- setup our canvas element -->
+<canvas id="canvas">Canvas is not supported in your browser.</canvas>
+
+
+		<script src="js/javascript.js"></script>
+		<script src="js/firework_javascript.js"></script>
+		<script src="js/firework_javascript1.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="demo"></div>
+	<script>
+
+		//Create Object Literal
+		var person = {
+			lastName  : 'Truong',
+			firstName : 'Truc',
+			fullName  : function fullName() {
+				return this.lastName +" "+this.firstName;	
+			},
+			ages		  :22,
+			get age() {
+				return this.ages;
+			},
+			set age(value) {
+				this.ages=value;
+			}
+		};
+		var x = person;
+		//delete person.lastName;
+		console.log(person.lastName);
+		console.log(person.firstName);
+		person["age"]= 100; 
+		//person.age = 29; 
+		//person.ages= 29;
+		//person[ages]=29;
+		document.getElementById("demo").innerHTML=
+		x.fullName();
+
+	</script>
+
+
+
+</body>
+</html>
+

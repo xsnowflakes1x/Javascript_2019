@@ -1,0 +1,86 @@
+/*Thêm font*/
+@font-face{
+	font-family: 'Lobster', cursive;
+	src: url("../fonts/Lobster/Lobster-Regular.ttf");
+}
+
+.img{
+	height: 200px;
+	width: 200px;
+	display:block;
+	transition: transform 1s;
+	
+}
+.img:hover{
+	height: 200px;
+	width: 200px;
+	display:block;
+	transition-duration:2s;
+	transition-timing-function: ease-out;
+	transform: rotateY(360deg);
+
+}
+
+
+.button
+{
+	font-family: 'Lobster', cursive;
+	position: relative;
+	left :70px;
+	background-color: #ff8e8e;
+	border-radius: 5px ;
+	height:30px;
+	width: 65px;
+	transition: width .5s, height .5s, transform .5s, 0.4s;
+ 	font-size: 16px;
+}
+
+.button:hover
+{
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 3px #aaa;
+	position: relative;
+	left :70px;
+	background-color: #ff8e8e87;
+	border-radius: 5px;
+	border-color: black;
+	height:30px;
+	width: 70px;
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+	box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 6px 8px 0 rgba(0,0,0,0.19);
+	
+}
+
+.button1
+{
+	display:none;
+	font-family: 'Lobster', cursive;
+	position: relative;
+	left :70px;
+	background-color: #ff8e8e;
+	border-radius: 5px ;
+	height:30px;
+	width: 77px;
+	transition: width .5s, height .5s, transform .5s, 0.4s;
+ 	font-size: 16px;
+}
+
+.button1:hover
+{
+	font-family: 'Lobster', cursive;
+	text-shadow: 2px 2px 3px #aaa;
+	position: relative;
+	left :70px;
+	background-color: #ff8e8e87;
+	border-radius: 5px;
+	border-color: black;
+	height:30px;
+	width: 78px;
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+	box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 6px 8px 0 rgba(0,0,0,0.19);
+	
+}
+
+

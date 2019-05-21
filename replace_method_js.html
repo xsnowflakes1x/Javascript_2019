@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>đổi tên</p>
+
+<p class="demo">Visit Microsoft!</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var str = document.getElementsByClassName("demo")[0]; 
+  // ....getElementsByClassName("demo")-->str[0] //cách viết 2: 
+  str.className = str.className = "truc"; 							//cách 1: 
+   // str.className = str.className.replace=(" demo", "truc");  //cách 2: 
+}
+</script>
+<!-- https://www.w3schools.com/howto/howto_js_slideshow.asp  đang làm cái này 
+
+--> 
+</body>
+</html>
