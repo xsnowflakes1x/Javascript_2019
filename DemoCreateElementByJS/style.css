@@ -1,0 +1,19 @@
+.box{ 
+	color: black;
+	background-image: linear-gradient(to right, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+	width:290px;
+	height:auto;
+	position:relative;
+ }
+
+.box:before {
+	content: '';
+	position:absolute;
+	bottom:0;
+	right:0;
+	background: linear-gradient(-45deg,white 45%,#aaa 50%, #ccc 60%, white);
+}
+.box:hover:before {
+	width:35px;
+	height:35px;
+}
